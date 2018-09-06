@@ -4,13 +4,13 @@ using Foundation;
 using UIKit;
 using Xamarin.Forms;
 using CoreGraphics;
-using KeyboardOverlap.Forms.Plugin.iOSUnified;
+using SpiffyKeyboardOverlap.Forms.Plugin.iOSUnified;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using System.Threading;
 
 [assembly: ExportRenderer (typeof(Page), typeof(KeyboardOverlapRenderer))]
-namespace KeyboardOverlap.Forms.Plugin.iOSUnified
+namespace SpiffyKeyboardOverlap.Forms.Plugin.iOSUnified
 {
 	[Preserve (AllMembers = true)]
 	public class KeyboardOverlapRenderer : PageRenderer

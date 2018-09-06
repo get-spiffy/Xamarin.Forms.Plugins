@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "SampleApp\Samp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.iOS", "SampleApp\SampleApp.iOS\SampleApp.iOS.csproj", "{63BFB494-492C-42D1-A66C-68FAED7EB5C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyboardOverlap.Forms.Plugin.iOSUnified", "KeyboardOverlap\KeyboardOverlap.Forms.Plugin.iOSUnified\KeyboardOverlap.Forms.Plugin.iOSUnified.csproj", "{BB864987-FD1A-4303-A4FC-B1F7E120E78D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiffyKeyboardOverlap.Forms.Plugin.iOSUnified", "KeyboardOverlap\KeyboardOverlap.Forms.Plugin.iOSUnified\SpiffyKeyboardOverlap.Forms.Plugin.iOSUnified.csproj", "{BB864987-FD1A-4303-A4FC-B1F7E120E78D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

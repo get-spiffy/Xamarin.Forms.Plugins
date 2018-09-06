@@ -2,7 +2,7 @@
 using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
-using KeyboardOverlap.Forms.Plugin.iOSUnified;
+using SpiffyKeyboardOverlap.Forms.Plugin.iOSUnified;
 
 namespace SampleApp.iOS
 {

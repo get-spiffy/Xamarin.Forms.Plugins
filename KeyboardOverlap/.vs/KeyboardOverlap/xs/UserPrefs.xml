@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{63BFB494-492C-42D1-A66C-68FAED7EB5C6}|Default">
+  <MonoDevelop.Ide.ItemProperties.SampleApp.SampleApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.1a3de89e5674cc281f163eb6f73149fb6962c80c" automaticSigning="True">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="W3HC949B79" TeamId="L5NEP9S7C7" />
+  </MonoDevelop.Ide.ItemProperties.SampleApp.SampleApp.iOS>
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleApp/SampleApp.iOS/AppDelegate.cs">
+    <Files>
+      <File FileName="SampleApp/SampleApp.iOS/Info.plist" />
+      <File FileName="KeyboardOverlap/KeyboardOverlap.Forms.Plugin.iOSUnified/KeyboardOverlapRenderer.cs" Line="11" Column="1" />
+      <File FileName="SampleApp/SampleApp.iOS/AppDelegate.cs" Line="32" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="KeyboardOverlap" expanded="True">
+            <Node name="SampleApp" expanded="True">
+              <Node name="SampleApp.iOS" expanded="True">
+                <Node name="References" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="SpiffyKeyboardOverlap.Forms.Plugin.iOSUnified" expanded="True" selected="True">
+              <Node name="References" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -21,9 +21,9 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>MinimumOSVersion</key>
-	<string>6.0</string>
+	<string>7.0</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.simpleProdInc.KeyboardOverlap</string>
+	<string>com.getspiffy.SpiffyKeyboardOverlap</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>CFBundleIconFiles</key>
@@ -48,5 +48,9 @@
 	<string>LaunchScreen</string>
 	<key>CFBundleDisplayName</key>
 	<string>Keyboard Overlap</string>
+	<key>CFBundleName</key>
+	<string>Spiffy Keyboard Overlap</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
 </dict>
 </plist>

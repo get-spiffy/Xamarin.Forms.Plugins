@@ -3,7 +3,7 @@ using UIKit;
 using Foundation;
 using CoreGraphics;
 
-namespace KeyboardOverlap.Forms.Plugin.iOSUnified
+namespace SpiffyKeyboardOverlap.Forms.Plugin.iOSUnified
 {
 	public static class ViewExtensions
 	{
