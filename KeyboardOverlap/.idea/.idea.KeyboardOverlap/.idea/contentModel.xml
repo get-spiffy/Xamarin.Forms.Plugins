@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="KeyboardOverlap/KeyboardOverlap.Forms.Plugin.iOSUnified" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Extensions" t="Include">
+          <e p="ViewExtensions.cs" t="Include" />
+        </e>
+        <e p="KeyboardOverlapRenderer.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="SpiffyKeyboardOverlap.Forms.Plugin.iOSUnified.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="KeyboardOverlap.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="SampleApp" t="Include">
+        <e p="SampleApp" t="IncludeRecursive">
+          <e p="App.xaml" t="Include" />
+          <e p="App.xaml.cs" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Models" t="Include">
+            <e p="PageTitle.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive" />
+          <e p="packages.config" t="Include" />
+          <e p="Pages" t="Include">
+            <e p="EntriesOnly.xaml" t="Include" />
+            <e p="EntriesOnly.xaml.cs" t="Include" />
+            <e p="MainPage.xaml" t="Include" />
+            <e p="MainPage.xaml.cs" t="Include" />
+            <e p="MultiLineText.xaml" t="Include" />
+            <e p="MultiLineText.xaml.cs" t="Include" />
+            <e p="SearchBarPage.xaml" t="Include" />
+            <e p="SearchBarPage.xaml.cs" t="Include" />
+            <e p="TabsPage.cs" t="Include" />
+            <e p="WithOtherContent.xaml" t="Include" />
+            <e p="WithOtherContent.xaml.cs" t="Include" />
+            <e p="WithScrollView.xaml" t="Include" />
+            <e p="WithScrollView.xaml.cs" t="Include" />
+          </e>
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="SampleApp.csproj" t="IncludeRecursive" />
+          <e p="ViewModel" t="Include">
+            <e p="MainPageViewModel.cs" t="Include" />
+          </e>
+        </e>
+        <e p="SampleApp.iOS" t="IncludeRecursive">
+          <e p="AppDelegate.cs" t="Include" />
+          <e p="Application.cs" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Entitlements.plist" t="Include" />
+          <e p="Info.plist" t="Include" />
+          <e p="iTunesArtwork" t="Include" />
+          <e p="iTunesArtwork@2x" t="Include" />
+          <e p="obj" t="ExcludeRecursive" />
+          <e p="packages.config" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="Default-568h@2x.png" t="Include" />
+            <e p="Default-Portrait.png" t="Include" />
+            <e p="Default-Portrait@2x.png" t="Include" />
+            <e p="Default.png" t="Include" />
+            <e p="Default@2x.png" t="Include" />
+            <e p="Icon-60@2x.png" t="Include" />
+            <e p="Icon-60@3x.png" t="Include" />
+            <e p="Icon-76.png" t="Include" />
+            <e p="Icon-76@2x.png" t="Include" />
+            <e p="Icon-Small-40.png" t="Include" />
+            <e p="Icon-Small-40@2x.png" t="Include" />
+            <e p="Icon-Small-40@3x.png" t="Include" />
+            <e p="Icon-Small.png" t="Include" />
+            <e p="Icon-Small@2x.png" t="Include" />
+            <e p="Icon-Small@3x.png" t="Include" />
+            <e p="LaunchScreen.storyboard" t="Include" />
+          </e>
+          <e p="SampleApp.iOS.csproj" t="IncludeRecursive" />
+        </e>
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_KeyboardOverlap.-99900464.00" t="ExcludeRecursive" />
+  </component>
+</project>

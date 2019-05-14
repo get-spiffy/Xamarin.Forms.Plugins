@@ -1,13 +1,14 @@
 ﻿using System;
-using Xamarin.Forms.Platform.iOS;
-using Foundation;
-using UIKit;
-using Xamarin.Forms;
-using CoreGraphics;
-using SpiffyKeyboardOverlap.Forms.Plugin.iOSUnified;
 using System.Diagnostics;
-using System.Threading.Tasks;
 using System.Threading;
+using System.Threading.Tasks;
+using Foundation;
+using SpiffyKeyboardOverlap.Forms.Plugin.iOSUnified;
+using UIKit;
+using WebKit;
+using Xamarin.Forms;
+using Xamarin.Forms.Platform.iOS;
+using Xamarin.Essentials;
 
 [assembly: ExportRenderer (typeof(Page), typeof(KeyboardOverlapRenderer))]
 namespace SpiffyKeyboardOverlap.Forms.Plugin.iOSUnified
@@ -82,10 +83,24 @@ namespace SpiffyKeyboardOverlap.Forms.Plugin.iOSUnified
 				return;
 
 			_isKeyboardShown = true;
-			var activeView = View.FindFirstResponder ();
+			var activeView = View.FindFirstResponder();
 
-			if (activeView == null)
+			var viewType = activeView.GetType();
+            var superView = activeView.Superview.GetType();
+            var superDuperView = activeView.Superview.Superview.GetType();
+            var superDuperSuperView = activeView.Superview.Superview.Superview.GetType();
+
+			Console.WriteLine($"************* viewType: {viewType.FullName}");
+            Console.WriteLine($"************* superView: {superView.FullName}");
+            Console.WriteLine($"************* superDuperView: {superDuperView.FullName}");
+            Console.WriteLine($"************* superDuperSuperView: {superDuperSuperView.FullName}");
+
+            if (activeView == null)
 				return;
+
+            if (superDuperView.BaseType == typeof(UIWebView))
+                return;
+                      
 
 			var keyboardFrame = UIKeyboard.FrameEndFromNotification (notification);
 			var isOverlapping = activeView.IsKeyboardOverlapping (View, keyboardFrame);
@@ -94,10 +109,18 @@ namespace SpiffyKeyboardOverlap.Forms.Plugin.iOSUnified
 				return;
 
 			if (isOverlapping) {
-                _lastActiveView = activeView;
-				_activeViewBottom = activeView.GetViewRelativeBottom (View);
-                _lastKeyboardHeight = keyboardFrame.Height;
-				ShiftPageUp (_lastKeyboardHeight, _activeViewBottom);
+				if (viewType == typeof(UIWebView))
+				{
+					Console.WriteLine("Found WebView");
+				}
+				else
+				{
+					_lastActiveView = activeView;
+					_activeViewBottom = activeView.GetViewRelativeBottom (View);
+					_lastKeyboardHeight = keyboardFrame.Height;
+					ShiftPageUp (_lastKeyboardHeight, _activeViewBottom);	
+				}
+                
 			}
 		}
 
@@ -129,7 +152,7 @@ namespace SpiffyKeyboardOverlap.Forms.Plugin.iOSUnified
 		{
 			var pageFrame = Element.Bounds;
 
-			var newY = pageFrame.Y + CalculateShiftByAmount (pageFrame.Height, keyboardHeight, activeViewBottom);
+			var newY = pageFrame.Height + CalculateShiftByAmount (pageFrame.Height, keyboardHeight, activeViewBottom);
 
 			Element.LayoutTo (new Rectangle (pageFrame.X, newY, pageFrame.Width, pageFrame.Height));
 
@@ -161,7 +184,8 @@ namespace SpiffyKeyboardOverlap.Forms.Plugin.iOSUnified
 
         private double CalculateShiftByAmount (double pageHeight, nfloat keyboardHeight, double activeViewBottom)
 		{
-			return (pageHeight - activeViewBottom) - keyboardHeight;
+			//calculation accounts for the TabbBarView Height
+			return (pageHeight - activeViewBottom) - keyboardHeight + (TabBarController?.TabBar?.Frame.Height ?? 0); 
 		}
 	}
 }

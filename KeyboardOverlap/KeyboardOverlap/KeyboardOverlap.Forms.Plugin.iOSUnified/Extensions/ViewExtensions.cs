@@ -51,12 +51,16 @@ namespace SpiffyKeyboardOverlap.Forms.Plugin.iOSUnified
 		/// <param name="rootView">Root view.</param>
 		/// <param name="keyboardFrame">Keyboard frame.</param>
 		public static bool IsKeyboardOverlapping (this UIView activeView, UIView rootView, CGRect keyboardFrame)
-		{
+		{	
+			
 			var activeViewBottom = activeView.GetViewRelativeBottom (rootView);
 			var pageHeight = rootView.Frame.Height;
 			var keyboardHeight = keyboardFrame.Height;
 
-			var isOverlapping = activeViewBottom >= (pageHeight - keyboardHeight);
+			
+			var	isOverlapping = activeViewBottom >= (pageHeight - keyboardHeight);	
+			
+			
 
 			return isOverlapping;
 		}

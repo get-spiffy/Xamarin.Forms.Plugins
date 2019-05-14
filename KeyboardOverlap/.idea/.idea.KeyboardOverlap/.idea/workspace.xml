@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9468aed-2845-4611-8425-7290d3e0b0d4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.vs/KeyboardOverlap/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/KeyboardOverlap/xs/UserPrefs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/KeyboardOverlap/xs/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/KeyboardOverlap/xs/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/KeyboardOverlap/xs/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/KeyboardOverlap/xs/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KeyboardOverlap/KeyboardOverlap.Forms.Plugin.iOSUnified/Extensions/ViewExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KeyboardOverlap/KeyboardOverlap.Forms.Plugin.iOSUnified/Extensions/ViewExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KeyboardOverlap/KeyboardOverlap.Forms.Plugin.iOSUnified/KeyboardOverlapRenderer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KeyboardOverlap/KeyboardOverlap.Forms.Plugin.iOSUnified/KeyboardOverlapRenderer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KeyboardOverlap/KeyboardOverlap.Forms.Plugin.iOSUnified/SpiffyKeyboardOverlap.Forms.Plugin.iOSUnified.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/KeyboardOverlap/KeyboardOverlap.Forms.Plugin.iOSUnified/SpiffyKeyboardOverlap.Forms.Plugin.iOSUnified.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KeyboardOverlap/KeyboardOverlap.Forms.Plugin.iOSUnified/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/KeyboardOverlap/KeyboardOverlap.Forms.Plugin.iOSUnified/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleApp/SampleApp.iOS/SampleApp.iOS.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SampleApp/SampleApp.iOS/SampleApp.iOS.csproj" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/KeyboardOverlap/KeyboardOverlap.Forms.Plugin.iOSUnified/KeyboardOverlapRenderer.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="274">
+                  <caret line="88" column="74" selection-start-line="88" selection-start-column="74" selection-end-line="88" selection-end-column="74" />
+                  <folding>
+                    <marker date="1557857906951" expanded="true" signature="6:246" ph="..." />
+                    <marker date="1557857906951" expanded="true" signature="378:5190" ph="{...}" />
+                    <marker date="1557857906951" expanded="true" signature="465:5188" ph="{...}" />
+                    <marker date="1557857906951" expanded="true" signature="759:863" ph="{...}" />
+                    <marker date="1557857906951" expanded="true" signature="918:1176" ph="{...}" />
+                    <marker date="1557857906951" expanded="true" signature="1019:1172" ph="{...}" />
+                    <marker date="1557857906951" expanded="true" signature="1234:1323" ph="{...}" />
+                    <marker date="1557857906951" expanded="true" signature="1367:1703" ph="{...}" />
+                    <marker date="1557857906951" expanded="true" signature="1749:2179" ph="{...}" />
+                    <marker date="1557857906951" expanded="true" signature="1821:1978" ph="{...}" />
+                    <marker date="1557857906951" expanded="true" signature="2018:2175" ph="{...}" />
+                    <marker date="1557857906951" expanded="true" signature="2250:3109" ph="{...}" />
+                    <marker date="1557857906951" expanded="true" signature="2759:3105" ph="{...}" />
+                    <marker date="1557857906951" expanded="true" signature="2799:2852" ph="{...}" />
+                    <marker date="1557857906951" expanded="true" signature="2861:3083" ph="{...}" />
+                    <marker date="1557857906951" expanded="true" signature="3170:3874" ph="{...}" />
+                    <marker date="1557857906951" expanded="true" signature="3341:3870" ph="{...}" />
+                    <marker date="1557857906951" expanded="true" signature="3563:3729" ph="{...}" />
+                    <marker date="1557857906951" expanded="true" signature="3951:4228" ph="{...}" />
+                    <marker date="1557857906951" expanded="true" signature="4261:4441" ph="{...}" />
+                    <marker date="1557857906951" expanded="true" signature="4506:4900" ph="{...}" />
+                    <marker date="1557857906951" expanded="true" signature="4575:4787" ph="{...}" />
+                    <marker date="1557857906951" expanded="true" signature="5015:5185" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/KeyboardOverlap/KeyboardOverlap.Forms.Plugin.iOSUnified/SpiffyKeyboardOverlap.Forms.Plugin.iOSUnified.csproj">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/KeyboardOverlap/KeyboardOverlap.Forms.Plugin.iOSUnified/Extensions/ViewExtensions.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="607">
+                  <caret line="61" column="12" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+                  <folding>
+                    <marker date="1557857774897" expanded="true" signature="6:64" ph="..." />
+                    <marker date="1557857774897" expanded="true" signature="121:2132" ph="{...}" />
+                    <marker date="1557857774897" expanded="true" signature="159:2130" ph="{...}" />
+                    <marker date="1557857774897" expanded="true" signature="165:476" ph="/// Find the first responder in the &lt;paramref name=&quot;view&quot;/&gt;'s subview hierarchy ... " />
+                    <marker date="1557857774897" expanded="true" signature="537:783" ph="{...}" />
+                    <marker date="1557857774897" expanded="true" signature="572:595" ph="{...}" />
+                    <marker date="1557857774897" expanded="true" signature="641:763" ph="{...}" />
+                    <marker date="1557857774897" expanded="true" signature="787:1039" ph="/// Returns the new view Bottom (Y + Height) coordinates relative to the rootView ... " />
+                    <marker date="1557857774897" expanded="true" signature="1120:1342" ph="{...}" />
+                    <marker date="1557857774897" expanded="true" signature="1346:1733" ph="/// Determines if the UIView is overlapped by the keyboard ... " />
+                    <marker date="1557857774897" expanded="true" signature="1840:2127" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Calculate</find>
+      <find>Calc</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/KeyboardOverlap/KeyboardOverlap.Forms.Plugin.iOSUnified/Extensions/ViewExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KeyboardOverlap/KeyboardOverlap.Forms.Plugin.iOSUnified/KeyboardOverlapRenderer.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/KeyboardOverlap/KeyboardOverlap.Forms.Plugin.iOSUnified/Extensions/ViewExtensions.cs" />
+        <option value="$PROJECT_DIR$/KeyboardOverlap/KeyboardOverlap.Forms.Plugin.iOSUnified/KeyboardOverlapRenderer.cs" />
+        <option value="$PROJECT_DIR$/KeyboardOverlap/KeyboardOverlap.Forms.Plugin.iOSUnified/SpiffyKeyboardOverlap.Forms.Plugin.iOSUnified.csproj" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.KeyboardOverlap/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.KeyboardOverlap/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.KeyboardOverlap/.idea/indexLayout.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="2799" />
+    <option name="height" value="1417" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="KeyboardOverlap" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="KeyboardOverlap" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="SampleApp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.xinky.component.materialdesign.theme.lastnotify" value="1557844069208" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="iOSSettingsPageId" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Xamarin.iOS.SampleApp\SampleApp.iOS">
+    <configuration name="SampleApp\SampleApp.iOS" type="XamarinIOSProject" factoryName="Xamarin.iOS" temporary="true">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/SampleApp/SampleApp.iOS/SampleApp.iOS.csproj" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="DEFAULT_IPHONE_DEVICE" value="" />
+      <option name="DEFAULT_IPHONE_SIMULATOR" value="" />
+      <option name="DEPLOY_TARGET_BEHAVIOUR_NAME" value="Ask" />
+      <option name="IS_PASS_PARENT_ENVS" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="iOS Default" type="XamarinIOSProject" factoryName="Xamarin.iOS">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="DEFAULT_IPHONE_DEVICE" value="" />
+      <option name="DEFAULT_IPHONE_SIMULATOR" value="" />
+      <option name="DEPLOY_TARGET_BEHAVIOUR_NAME" value="Ask" />
+      <option name="IS_PASS_PARENT_ENVS" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Xamarin.iOS.SampleApp\SampleApp.iOS" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9468aed-2845-4611-8425-7290d3e0b0d4" name="Default Changelist" comment="" />
+      <created>1557844067527</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557844067527</updated>
+      <workItem from="1557844071035" duration="1027000" />
+      <workItem from="1557846353331" duration="7091000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8118000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="3440" height="1417" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.117422014" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.3299532" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.3299532" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/KeyboardOverlap/KeyboardOverlap.Forms.Plugin.iOSUnified/Extensions/ViewExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="61" column="12" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+          <folding>
+            <marker date="1557857774897" expanded="true" signature="6:64" ph="..." />
+            <marker date="1557857774897" expanded="true" signature="121:2132" ph="{...}" />
+            <marker date="1557857774897" expanded="true" signature="159:2130" ph="{...}" />
+            <marker date="1557857774897" expanded="true" signature="165:476" ph="/// Find the first responder in the &lt;paramref name=&quot;view&quot;/&gt;'s subview hierarchy ... " />
+            <marker date="1557857774897" expanded="true" signature="537:783" ph="{...}" />
+            <marker date="1557857774897" expanded="true" signature="572:595" ph="{...}" />
+            <marker date="1557857774897" expanded="true" signature="641:763" ph="{...}" />
+            <marker date="1557857774897" expanded="true" signature="787:1039" ph="/// Returns the new view Bottom (Y + Height) coordinates relative to the rootView ... " />
+            <marker date="1557857774897" expanded="true" signature="1120:1342" ph="{...}" />
+            <marker date="1557857774897" expanded="true" signature="1346:1733" ph="/// Determines if the UIView is overlapped by the keyboard ... " />
+            <marker date="1557857774897" expanded="true" signature="1840:2127" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KeyboardOverlap/KeyboardOverlap.Forms.Plugin.iOSUnified/KeyboardOverlapRenderer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="88" column="74" selection-start-line="88" selection-start-column="74" selection-end-line="88" selection-end-column="74" />
+          <folding>
+            <marker date="1557857906951" expanded="true" signature="6:246" ph="..." />
+            <marker date="1557857906951" expanded="true" signature="378:5190" ph="{...}" />
+            <marker date="1557857906951" expanded="true" signature="465:5188" ph="{...}" />
+            <marker date="1557857906951" expanded="true" signature="759:863" ph="{...}" />
+            <marker date="1557857906951" expanded="true" signature="918:1176" ph="{...}" />
+            <marker date="1557857906951" expanded="true" signature="1019:1172" ph="{...}" />
+            <marker date="1557857906951" expanded="true" signature="1234:1323" ph="{...}" />
+            <marker date="1557857906951" expanded="true" signature="1367:1703" ph="{...}" />
+            <marker date="1557857906951" expanded="true" signature="1749:2179" ph="{...}" />
+            <marker date="1557857906951" expanded="true" signature="1821:1978" ph="{...}" />
+            <marker date="1557857906951" expanded="true" signature="2018:2175" ph="{...}" />
+            <marker date="1557857906951" expanded="true" signature="2250:3109" ph="{...}" />
+            <marker date="1557857906951" expanded="true" signature="2759:3105" ph="{...}" />
+            <marker date="1557857906951" expanded="true" signature="2799:2852" ph="{...}" />
+            <marker date="1557857906951" expanded="true" signature="2861:3083" ph="{...}" />
+            <marker date="1557857906951" expanded="true" signature="3170:3874" ph="{...}" />
+            <marker date="1557857906951" expanded="true" signature="3341:3870" ph="{...}" />
+            <marker date="1557857906951" expanded="true" signature="3563:3729" ph="{...}" />
+            <marker date="1557857906951" expanded="true" signature="3951:4228" ph="{...}" />
+            <marker date="1557857906951" expanded="true" signature="4261:4441" ph="{...}" />
+            <marker date="1557857906951" expanded="true" signature="4506:4900" ph="{...}" />
+            <marker date="1557857906951" expanded="true" signature="4575:4787" ph="{...}" />
+            <marker date="1557857906951" expanded="true" signature="5015:5185" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KeyboardOverlap/KeyboardOverlap.Forms.Plugin.iOSUnified/SpiffyKeyboardOverlap.Forms.Plugin.iOSUnified.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
